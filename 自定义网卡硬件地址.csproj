@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0-windows</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Platforms>x64</Platforms>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Using Include="自定义网卡硬件地址" />
+		<Using Include="Microsoft.Win32" />
+		<Using Include="System.Text" />
+		<Using Include="System.Text.RegularExpressions" />
+		<Using Include="System.Security.Principal"/>
+	</ItemGroup>
+</Project>
